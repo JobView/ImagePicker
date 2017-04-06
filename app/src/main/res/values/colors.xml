@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="random1">#7cddd7</color>
+    <color name="random2">#decdb2</color>
+    <color name="random3">#EC5446</color>
+    <color name="random4">#F8D405</color>
+    <color name="random5">#1FA462</color>
+
+    <color name="transparent4">#20000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent1">#20000000</color>
+    <color name="transparent2">#50000000</color>
+    <color name="transparent3">#d0000000</color>
+    <color name="transparent5">#DA000000</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="gray">#ffcccccc</color>
+    <color name="green">#97c31a</color>
+    <color name="blue">#319ce0</color>
+    <color name="red">#FF0000</color>
+    <color name="halfWhite">#fee9d8</color>
+    <color name="mainColor">#feb76e</color>
+    <color name="bgColor">#FFF7F5</color>
+    <color name="selectedTextColor">#FFD4B6</color>
+    <color name="textColor">#606060</color>
+    <color name="under_line">#EAE8E9</color>
+    <color name="bgBtnConfirm">#FF6A42</color>
+    <color name="colorStroke">#C0BEBD</color>
+    <color name="bgItemDish">#f4f4f4</color>
+    <color name="textUnchecked">#a18877</color>
+    <color name="textColorPayed">#fe6836</color>
+    <color name="underLine">#DBDBDB</color>
+    <color name="bgItemCheck">#FFF7F4</color>
+    <color name="textColorLogTitle">#4e4d4c</color>
+    <color name="textColorLog">#a18877</color>
+    <color name="textAnalize">#606060</color>
+    <color name="textAccount">#878787</color>
+    <color name="textB5B5B5">#b5b5b5</color>
+    <color name="strokePsw">#D3D3D3</color>
+    <color name="bgItemPsw">#D1D6DC</color>
+    <color name="textColorDetail">#b5b5b5</color>
+    <color name="bgLogout">#FFEEE0</color>
+</resources>
