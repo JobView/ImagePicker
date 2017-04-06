@@ -63,6 +63,8 @@ public class ImagePreviewActivity extends AppCompatActivity{
                 photoView.setImageBitmap(BitmapFactory.decodeFile(path));
                 views.add(view);
             }
+
+            
         }
         vp.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
