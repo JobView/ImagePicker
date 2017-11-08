@@ -1,4 +1,4 @@
-package com.wzf.imagepicker;
+package com.wzf.imagepicker.ui;
 
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -8,11 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
+import com.wzf.imagepicker.R;
 import com.wzf.imagepicker.adapter.CommonPageAdapter;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 
 import uk.co.senab.photoview.PhotoView;

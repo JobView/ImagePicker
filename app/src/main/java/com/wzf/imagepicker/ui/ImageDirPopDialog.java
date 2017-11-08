@@ -1,4 +1,4 @@
-package com.wzf.imagepicker;
+package com.wzf.imagepicker.ui;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -10,6 +10,8 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import com.wzf.imagepicker.I.IDirChoose;
+import com.wzf.imagepicker.R;
+import com.wzf.imagepicker.utils.ScreenUtils;
 import com.wzf.imagepicker.adapter.ImageDirAdapter;
 import com.wzf.imagepicker.model.ImageFloder;
 

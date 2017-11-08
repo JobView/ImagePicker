@@ -5,7 +5,7 @@ import android.support.v7.widget.RecyclerView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.wzf.imagepicker.ImageLoader;
+import com.wzf.imagepicker.ImageLoader.ImageLoader;
 import com.wzf.imagepicker.R;
 import com.wzf.imagepicker.model.ImageFloder;
 

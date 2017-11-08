@@ -1,4 +1,4 @@
-package com.wzf.imagepicker;
+package com.wzf.imagepicker.utils;
 
 import android.app.Activity;
 import android.content.Context;

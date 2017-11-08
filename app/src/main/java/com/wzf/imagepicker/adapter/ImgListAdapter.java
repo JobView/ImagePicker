@@ -5,14 +5,11 @@ import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import com.wzf.imagepicker.ImageLoader;
-import com.wzf.imagepicker.ImagePickerActivity;
+import com.wzf.imagepicker.ImageLoader.ImageLoader;
 import com.wzf.imagepicker.R;
 import java.io.File;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 /**
  * @Description:

@@ -1,20 +1,19 @@
-package com.wzf.imagepicker;
+package com.wzf.imagepicker.ui;
 
 import android.content.Intent;
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.TextView;
 
+import com.wzf.imagepicker.ImageLoader.ImageLoader;
+import com.wzf.imagepicker.R;
 import com.wzf.imagepicker.adapter.RcyCommonAdapter;
 import com.wzf.imagepicker.adapter.RcyViewHolder;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import uk.co.senab.photoview.PhotoView;
 
@@ -37,6 +36,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ImagePickerActivity.startMethod(MainActivity.this,6);
+            }
+        });
+
+        findViewById(R.id.btn_net).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, LoadNetImageActivity.class));
             }
         });
         pv = (PhotoView) findViewById(R.id.pv);

@@ -1,4 +1,4 @@
-package com.wzf.imagepicker;
+package com.wzf.imagepicker.ui;
 
 import android.Manifest;
 import android.app.Activity;
@@ -25,6 +25,8 @@ import android.widget.Toast;
 
 import com.werb.permissionschecker.PermissionChecker;
 import com.wzf.imagepicker.I.IDirChoose;
+import com.wzf.imagepicker.R;
+import com.wzf.imagepicker.utils.ScreenUtils;
 import com.wzf.imagepicker.adapter.ImgListAdapter;
 import com.wzf.imagepicker.model.ImageFloder;
 
@@ -33,7 +35,6 @@ import java.io.FilenameFilter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
 
 public class ImagePickerActivity extends AppCompatActivity {
